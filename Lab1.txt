@@ -48,5 +48,4 @@ step7 : pull the changes from the remote repo and merge it with main branch and 
          >git pull origin main
          >git push origin main
 
-Added some more tests
 
