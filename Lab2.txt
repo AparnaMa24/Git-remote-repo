@@ -1,0 +1,51 @@
+Create an empty remote repository in your personal github account
+
+Clone remote repo into local machine 
+git clone <remorerepourl>
+> git clone https://github.com/DA20130715_wipro/git-remote-repository-4thapr.git
+
+Update the folder available in working directory adding a new file HelloWorld.java through windows explorer
+
+check the status
+
+>git status
+
+stage the changes
+
+>git add .
+
+commit the changes into the local repo
+
+>git commit -m "HelloWorld.java" is added
+
+push commited local repo into remote repo
+
+>git push origin main
+
+then check the remote repo for the new HelloWorld.java and see the commit history
+
+
+Pushing existing local repo into remote repo
+
+step1 : create a remote repo with same name as existing local repo
+step 2: change the branch to main
+        git branch -M main
+step 3: 
+ add remote repo url in local repository
+
+>git remote add origin <remote repository url>
+git remote add origin https://github.com/DA20130715_wipro/gitlocalrepository3rdapr.git
+
+step4: push the local repository into remote repo
+>git push origin main
+
+step 5: add new file in remote repo and commit the changes
+
+step6 : add new file in local repo and commit the changes
+
+step7 : pull the changes from the remote repo and merge it with main branch and then push the changes back to remote repo
+         
+         >git pull origin main
+         >git push origin main
+
+
